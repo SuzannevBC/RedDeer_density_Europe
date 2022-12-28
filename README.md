@@ -1,0 +1,1 @@
+## Data and scripts study entitled "Numerical top-down effects on red deer (Cervus elaphus) are mainly shaped by humans rather than large carnivores across Europe"
