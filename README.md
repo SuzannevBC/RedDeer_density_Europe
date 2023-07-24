@@ -8,3 +8,54 @@ Suzanne T.S van Beeck Calkoen, Dries P.J. Kuijper, M. Apollonio, Lena Blondel, C
 4. Synthesis and applications. This study provides evidence for the dominant role played by humans (i.e. hunting, land-use activities) relative to large carnivores in reducing red deer density across European human-dominated landscapes. These findings suggest that when we would like large carnivores to exert numeric effects, we should focus on minimizing human impacts to allow the ecological impacts of large carnivores on ecosystem functioning.
 
 Keywords: Cervus elaphus, top-down control, numerical effects ,large carnivores, environmental productivity, hunting by humans, human land-use activities
+
+## Extract files
+To extract all Data and Rscripts, download the zip file and unpack on your own device. 
+
+## Running the Rscripts
+To run all scripts, open the R project "SvBC_2023_RedDeer" and run the Rscripts saved within. All data will be saved and shown within the respective folders. 
+
+## Rscript structure
+01. Model
+- Data preparation
+- Pre-modelling exploratory analyses
+- Model
+- Post-modelling diagnostics
+- Results
+
+02. Figures
+- Repetition model
+- Boxplots parametric coefficients
+- Plot smooths
+	- Human influence index * Predation
+	- Net primary productivity * Predation
+	- Environmental plots (tree canopy cover, Normalized difference snow index , Palmer drough severity index)
+
+03. SuppInfo_II
+- 5-km buffer
+	- Data preparation
+	- Pre-modelling exploratory analyses
+	- Model
+	- Post-modelling diagnostics
+	- Results
+- 5000 x 5000 resolution
+	- Data preparation
+	- Pre-modelling exploratory analyses
+	- Model
+	- Post-modelling diagnostics
+	- Results
+
+04. SuppInfo_III
+- Check stability model, randomly deleting 10% of the data
+	- Data preparation
+	- Model
+	- Post-modelling diagnostics
+	- Results
+	- Figures
+- Randomly change density estimates by 60%
+	- Data preparation
+	- Model
+	- Post-modelling diagnostics
+	- Results
+	- Figures
+- Delta deviance explained
